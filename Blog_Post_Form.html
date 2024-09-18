@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input element</h1>
+
+<form action="/action_page.php">
+    <label for="fname">What is the title of blog:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+   </form>
+<form action="/action_page.php">
+  <label for="fname">First name of author:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name of author:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  
+</form>
+<form action="/action_page.php">
+    <label for="authors">name of author:</label>
+    <select name="authors" id="authors">
+      <optgroup label="Humber">
+        <option value="Gebrial">Gebrial</option>
+        <option value="Cristina">Cristina</option>
+      </optgroup>
+      <optgroup label="Centennial">
+        <option value="Leandro">Leandro</option>
+        <option value="Cherish">Cherish</option>
+      </optgroup>
+      <br><br>
+      <input type="submit" value="Submit">
+    </select>
+    </form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+</body>
+</html>
